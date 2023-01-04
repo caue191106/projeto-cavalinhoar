@@ -53,8 +53,12 @@ header {
     transition: color 0.2s;
 }
 
+.primeira-caixa {
+    background-color: rgb(51, 51, 136);
+}
+
 main h1 {
-    padding-top: 130px;
+    padding-top: 70px;
     padding-left: 40px;
     color: #0f3563;
     font-size: 45px;
@@ -71,9 +75,22 @@ main p {
     flex-direction: row;
 }
 
-main img {
+.logo-preta {
     height: 300px;
     padding-left: 230px;
     margin-top: -185px;
     transform: rotate(17deg);
+}
+
+#linha-horizontal {
+    margin-top: 80px;
+    width: 1347.2px;
+    border: 1px solid #1e60af;
+    box-shadow: 2px 2px 9px gray;
+}
+
+.fachada {
+    padding-top: 100px;
+    display: block;
+    margin: auto;
 }
